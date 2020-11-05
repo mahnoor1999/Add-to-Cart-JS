@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- user budget -->
+    <h1>Fruit Shop</h1>
+    <div class="budget">
+        <h4>Enter Your Budget</h4>
+        <input type="number" id="budget" value="0">
+
+    </div>
+
+    <!-- *****************apple********************* -->
+    <section>
+        <div class="fruits">
+            <h3>Apple</h3>
+            <h3>Rs : 10</h3>
+            <img src="images/apple.jpg" alt="">
+            <!-- add button -->
+            <div>
+                <button id="add-price1" onclick="addprice1()">+</button>
+
+                <input type="number" id="apple-price" value="0" readonly>
+                <!-- sub button -->
+                <button id="sub-price1" onclick="subprice1()">-</button>
+            </div>
+        </div>
+        <!-- *****************Mango********************* -->
+        <div class="fruits">
+            <h3>Mango</h3>
+            <h3>Rs : 5</h3>
+            <img src="images/mango.png" alt="">
+            <!-- add button -->
+            <div>
+                <button id="add-price2" onclick="addprice2()">+</button>
+
+                <input type="number" id="mango-price" value="0" readonly>
+                <!-- sub button -->
+                <button id="sub-price2" onclick="subprice2()">-</button>
+            </div>
+        </div>
+        <!-- *****************Banana********************* -->
+        <div class="fruits">
+            <h3>Banana</h3>
+            <h3>Rs : 15</h3>
+            <img src="images/banana.jpg" alt="">
+            <div>
+                <!-- add button -->
+                <button id="add-price3" onclick="addprice3()">+</button>
+
+                <input type="number" id="banana-price" value="0" readonly>
+                <!-- sub button -->
+                <button id="sub-price3" onclick="subprice3()">-</button>
+            </div>
+        </div>
+    </section>
+    <!-- total -->
+    <h4 id="total">Total = <span>0</span></h4>
+    <br>
+    <!-- remaining balance -->
+    <h4 id="r-b">Remaining balance = <span>0</span></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</body>
+
+</html>

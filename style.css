@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: darkred;
+    text-align: center;
+    background-color: darkseagreen;
+    padding: 0.5em;
+}
+.budget{
+    text-align: center;
+}
+#budget{
+    padding: 0.6em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;   
+}
+h4{
+    display: inline;
+    padding-right: 2px;
+    color: firebrick;
+    font-size: 1.4em;
+}
+div img{
+display: block;
+}
+div input, div button{
+    padding: 0.5em;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+div input{
+    background-color: burlywood;
+}
+div button{
+    background-color: chocolate;
+}
+.fruits{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+section{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+@media (min-width: 320px){
+section{
+    flex-direction: column;
+}   
+}
+@media (min-width: 1024px){
+    section{
+        flex-direction: row;
+    }    
+}
+
+
+
